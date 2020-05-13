@@ -48,3 +48,135 @@ table {
 	border-spacing: 0;
 }
 
+h1 {
+    font-size: 60px;
+    font-family: 'Gaegu', cursive;
+    color: blue;
+    margin: 20px 20px ;
+  }
+  .container {
+    background: black;
+    border: 2px solid black;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    justify-content: start;
+  }
+  .navAnchor {
+    background: red;
+    padding: 10px;
+    border: 1px solid lightgray;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .container a:hover {
+    background: yellow;
+    color: black;
+  }
+  
+  #name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .introPic {
+    margin: 10px
+  }
+  
+  .introduction {
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 90px;
+  }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    background: dodgerblue;
+    height: 40px;
+    width: 100px;
+  }
+  
+  .intro a button:hover {
+    background: black;
+    color: white;
+  }
+  
+  #containerTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  p{
+    text-align: center;
+  }
+  
+  #container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #container4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+  }
+  
+  .contact {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background: orange;
+  }
+  footer {
+    background: black;
+    width: 100%;
+    color: white;
+  }
+  
+  h3 {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+  }
+  a {
+    color: yellow;
+  }
+  
