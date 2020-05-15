@@ -48,16 +48,21 @@ table {
 	border-spacing: 0;
 }
 
+html{
+  font-size= 62.5%;
+}
 h1 {
-    font-size: 60px;
+    font-size: 4rem;
     font-family: 'Gaegu', cursive;
     color: blue;
     margin: 20px 20px ;
   }
   .container {
     background: black;
-    border: 2px solid black;
+    margin: 0 auto;
     width: 100%;
+    max-width: 800px;
+    border: 1px solid black;
   }
   .header {
     display: flex;
@@ -66,6 +71,8 @@ h1 {
     justify-content: start;
   }
   .navAnchor {
+    display: flex;
+    justify-content: center;
     background: red;
     padding: 10px;
     border: 1px solid lightgray;
@@ -73,7 +80,7 @@ h1 {
     color: white;
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
   }
   
   .container a:hover {
@@ -94,7 +101,7 @@ h1 {
   
   .introduction {
     text-align: left;
-    font-size: 18px;
+    font-size: 1.6rem;
   }
   
   .intro {
@@ -130,11 +137,14 @@ h1 {
   
   p{
     text-align: center;
+    font-size: 1.25rem;
   }
 
 hr {
   border: 1px solid red;
   width: 90%;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
   
   #container3 {
@@ -155,7 +165,7 @@ hr {
 
   .contact {
     color: red;
-    font-size: 18px;
+    font-size: 1.6rem;
     text-align: center;
   }
   
@@ -175,7 +185,7 @@ hr {
   }
   
   h3 {
-    font-size: 28px;
+    font-size: 2rem;
     text-align: center;
     padding: 10px;
   }
@@ -189,7 +199,7 @@ hr {
   nav {
     display: flex;
     justify-content: space-evenly;
-    font-size: 18px;
+    font-size: 1.25rem;
   }
   .footer {
     color: yellow;
@@ -197,4 +207,188 @@ hr {
     justify-content: space-evenly;
     padding: 5px;
   }
-  
+@media(max-width: 800px){
+  .container {
+    width: 85%;
+    background: gray;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .header {
+    display: flex;
+    justify-content: start;
+    width: 80px;
+  }
+  .navAnchor {
+    font-size: 1.4rem;
+  }
+  #name {
+    display: flex;
+    justify-content: center;
+  }
+ .introPic img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .introPic {
+    width: 80%;
+  }
+  .intro {
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+    width: 80%;
+  }
+  h2 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+ }
+  .introduction {
+    font-size: 1.25rem;
+  }
+  hr {
+    width: 80%;
+  }
+  p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .pictures1 img {
+    width: 80%;
+  }
+  .pictures2 img {
+    width: 80%;
+  }
+  .picture3 img {
+    width: 80%;
+  }
+  .picture4 img {
+    width: 80%;
+  }
+  .picture5 img {
+    width: 80%;
+  }
+  .picture6 img {
+    width: 80%;
+  }
+  .picture7 img {
+    width: 80%;
+  }
+  .picture8 img {
+    width: 80%;
+  }
+  .contact {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+ 
+  .footer {
+    font-size: .70rem;
+  }
+  .footer-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .70rem;
+  }
+}
+@media(max-width: 500px){
+  .container {
+    width: 75%;
+    background: purple;
+  }
+  h1 {
+    color: yellow;
+    font-size: 1.5rem;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .navAnchor {
+    background: orange;
+    color: black;
+    font-size: 1rem;
+  }
+  .introPic img {
+    width: 75%;
+    margin: 0 auto;
+  } 
+  .introPic {
+    width: 60%;
+  }
+  .intro {
+    display: flex;
+    justify-content: start;
+    width: 60%;
+  }
+  h2 {
+    font-size: 1.0rem
+  }
+  .introduction {
+    font-size: 1rem
+  }
+   hr {
+    width: 60%;
+  }
+  p {
+    display: flex;
+    justify-content: start;
+    font-size: .75rem;
+    text-align: center;
+  }
+  .pictures1 img {
+    width: 60%;
+  }
+  .pictures2 img {
+    width: 60%;
+  }
+  .picture3 img {
+    width: 60%;
+  }
+  .picture4 img {
+    width: 60%;
+  }
+  .picture5 img {
+    width: 60%;
+  }
+  .picture6 img {
+    width: 60%;
+  }
+  .picture7 img {
+    width: 60%;
+  }
+  .picture8 img {
+    width: 60%;
+  }
+  .contact {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer {
+    font-size: .5rem;
+  }
+  .footer-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .50rem;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
+}
