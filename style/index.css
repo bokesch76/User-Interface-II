@@ -166,6 +166,9 @@ hr {
     background: orange;
   }
   footer {
+    display: flex;4
+    flex-direction: column;
+    justify-content: center;
     background: black;
     width: 100%;
     color: white;
@@ -174,15 +177,24 @@ hr {
   h3 {
     font-size: 28px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
   nav {
     display: flex;
     justify-content: space-evenly;
     font-size: 18px;
   }
-  a {
+  .footer {
     color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
   }
-
   
